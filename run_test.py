@@ -55,36 +55,57 @@ def load_image(image_path, device):
 seed = 42
 seed_everything(seed)
 
-out_dir = "./workdir/masactrl_real_exp/"
-os.makedirs(out_dir, exist_ok=True)
-sample_count = len(os.listdir(out_dir))
-out_dir = os.path.join(out_dir, f"sample_{sample_count}")
-os.makedirs(out_dir, exist_ok=True)
+def generate_image(source_image_path: str, target_prompt: str, output_image_path: str|Path):
+    # source image
+    source_image = load_image(source_image_path, device)
 
-# source image
-SOURCE_IMAGE_PATH = "./gradio_app/images/corgi.jpg"
-source_image = load_image(SOURCE_IMAGE_PATH, device)
+    source_prompt = ""
+    prompts = [source_prompt, target_prompt]
 
-source_prompt = ""
-target_prompt = "a photo of a running corgi"
-prompts = [source_prompt, target_prompt]
+    # invert the source image
+    start_code, latents_list = model.invert(source_image,
+                                            source_prompt,
+                                            guidance_scale=7.5,
+                                            num_inference_steps=50,
+                                            return_intermediates=True)
+    start_code = start_code.expand(len(prompts), -1, -1, -1)
 
-# invert the source image
-start_code, latents_list = model.invert(source_image,
-                                        source_prompt,
-                                        guidance_scale=7.5,
-                                        num_inference_steps=50,
-                                        return_intermediates=True)
-start_code = start_code.expand(len(prompts), -1, -1, -1)
+    # results of direct synthesis
+    editor = AttentionBase()
+    regiter_attention_editor_diffusers(model, editor)
+    image_fixed = model([target_prompt],
+                        latents=start_code[-1:],
+                        num_inference_steps=50,
+                        guidance_scale=7.5)
 
-# results of direct synthesis
-editor = AttentionBase()
-regiter_attention_editor_diffusers(model, editor)
-image_fixed = model([target_prompt],
-                    latents=start_code[-1:],
-                    num_inference_steps=50,
-                    guidance_scale=7.5)
+    save_image(image_fixed, output_image_path)
 
-save_image(image_fixed, os.path.join(out_dir, f"fixed.png"))
 
-print("Syntheiszed images are saved in", out_dir)
+if __name__ == "__main__":
+    # source image
+    SOURCE_IMAGE_PATH = "./gradio_app/images/corgi.jpg"
+    source_image = load_image(SOURCE_IMAGE_PATH, device)
+
+    source_prompt = ""
+    target_prompt = "a photo of a running corgi"
+    prompts = [source_prompt, target_prompt]
+
+    # invert the source image
+    start_code, latents_list = model.invert(source_image,
+                                            source_prompt,
+                                            guidance_scale=7.5,
+                                            num_inference_steps=50,
+                                            return_intermediates=True)
+    start_code = start_code.expand(len(prompts), -1, -1, -1)
+
+    # results of direct synthesis
+    editor = AttentionBase()
+    regiter_attention_editor_diffusers(model, editor)
+    image_fixed = model([target_prompt],
+                        latents=start_code[-1:],
+                        num_inference_steps=50,
+                        guidance_scale=7.5)
+
+    save_image(image_fixed, os.path.join(out_dir, f"fixed.png"))
+
+    print("Syntheiszed images are saved in", out_dir)
