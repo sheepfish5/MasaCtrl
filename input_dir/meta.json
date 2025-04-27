@@ -1,0 +1,155 @@
+{
+    "counter": {
+        "spring": 7,
+        "summer": 6,
+        "autumn": 4,
+        "winter": 12
+    },
+    "image_data": {
+        "input_dir/spring/01.jpg": {
+            "id": 1,
+            "season": "spring",
+            "prompt": "A tree stands in meadow"
+        },
+        "input_dir/spring/02.jpg": {
+            "id": 2,
+            "season": "spring",
+            "prompt": "A tree stands on a bank by a lake"
+        },
+        "input_dir/summer/01.jpg": {
+            "id": 1,
+            "season": "summer",
+            "prompt": "A tree stands on a hill under a sky"
+        },
+        "input_dir/summer/02.jpg": {
+            "id": 2,
+            "season": "summer",
+            "prompt": "A tree stands by a path in a field"
+        },
+        "input_dir/autumn/01.jpg": {
+            "id": 1,
+            "season": "autumn",
+            "prompt": "Two trees stand in a field under a sky"
+        },
+        "input_dir/autumn/02.jpg": {
+            "id": 2,
+            "season": "autumn",
+            "prompt": "Two trees stand in a field under a sky"
+        },
+        "input_dir/winter/01.jpg": {
+            "id": 1,
+            "season": "winter",
+            "prompt": "Several pine trees stand on a slope under a sky"
+        },
+        "input_dir/winter/02.jpg": {
+            "id": 2,
+            "season": "winter",
+            "prompt": "A tree stands in a field under a sky"
+        },
+        "input_dir/spring/03.jpg": {
+            "id": 3,
+            "season": "spring",
+            "prompt": "A tree stands in a field"
+        },
+        "input_dir/spring/04.jpg": {
+            "id": 4,
+            "season": "spring",
+            "prompt": "A tree stands in a field"
+        },
+        "input_dir/spring/05.jpg": {
+            "id": 5,
+            "season": "spring",
+            "prompt": "A field of trees under a sky"
+        },
+        "input_dir/spring/06.jpg": {
+            "id": 6,
+            "season": "spring",
+            "prompt": "A tree stands on a hill"
+        },
+        "input_dir/spring/07.jpg": {
+            "id": 7,
+            "season": "spring",
+            "prompt": "A tree stands under a blue sky"
+        },
+        "input_dir/summer/03.jpg": {
+            "id": 3,
+            "season": "summer",
+            "prompt": "A lone tree stands on a hill under a sky"
+        },
+        "input_dir/summer/04.jpg": {
+            "id": 4,
+            "season": "summer",
+            "prompt": "A tree stands in a field under a sky"
+        },
+        "input_dir/summer/05.jpg": {
+            "id": 5,
+            "season": "summer",
+            "prompt": "Two trees stand on a hill under a sky"
+        },
+        "input_dir/summer/06.jpg": {
+            "id": 6,
+            "season": "summer",
+            "prompt": "A tree stands in a open landscape"
+        },
+        "input_dir/autumn/03.jpg": {
+            "id": 3,
+            "season": "autumn",
+            "prompt": "A tree stands on a mound under a sky"
+        },
+        "input_dir/autumn/04.jpg": {
+            "id": 4,
+            "season": "autumn",
+            "prompt": "A tree stands on a hill under a sky"
+        },
+        "input_dir/winter/03.jpg": {
+            "id": 3,
+            "season": "winter",
+            "prompt": "A tree stands in a field"
+        },
+        "input_dir/winter/04.jpg": {
+            "id": 4,
+            "season": "winter",
+            "prompt": "A road winds through a forest"
+        },
+        "input_dir/winter/05.jpg": {
+            "id": 5,
+            "season": "winter",
+            "prompt": "Several trees line a field under a sky"
+        },
+        "input_dir/winter/06.jpg": {
+            "id": 6,
+            "season": "winter",
+            "prompt": "Several trees and a bench stand on a hill under a sky"
+        },
+        "input_dir/winter/07.jpg": {
+            "id": 7,
+            "season": "winter",
+            "prompt": "A weeping willow stands by a road in a landscape"
+        },
+        "input_dir/winter/08.jpg": {
+            "id": 8,
+            "season": "winter",
+            "prompt": "A tree stands in a field surrounded by several trees"
+        },
+        "input_dir/winter/09.jpg": {
+            "id": 9,
+            "season": "winter",
+            "prompt": "A tree stands on a hill with mountains in the distance"
+        },
+        "input_dir/winter/10.jpg": {
+            "id": 10,
+            "season": "winter",
+            "prompt": "Several trees line a road in a landscape under a clear sky"
+        },
+        "input_dir/winter/11.jpg": {
+            "id": 11,
+            "season": "winter",
+            "prompt": "A tree stands by a road under a partly cloudy sky"
+        },
+        "input_dir/winter/12.jpg": {
+            "id": 12,
+            "season": "winter",
+            "prompt": "A tree stands in a field under a clear sky"
+        }
+    }
+}
