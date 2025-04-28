@@ -20,6 +20,7 @@ from torchvision.io import read_image
 from pytorch_lightning import seed_everything
 
 from pathlib import Path
+from json_process import SingleImage, Season
 
 torch.cuda.set_device(0)  # set the GPU device
 
@@ -55,7 +56,7 @@ def load_image(image_path, device):
 seed = 42
 seed_everything(seed)
 
-def generate_image(source_image_path: str, target_prompt: str, output_image_path: str|Path):
+def generate_image(source_image_path: str, single_image: SingleImage, output_dir: Path):
     # source image
     source_image = load_image(source_image_path, device)
 
@@ -68,17 +69,25 @@ def generate_image(source_image_path: str, target_prompt: str, output_image_path
                                             guidance_scale=7.5,
                                             num_inference_steps=50,
                                             return_intermediates=True)
-    start_code = start_code.expand(len(prompts), -1, -1, -1)
+    # start_code = start_code.expand(len(prompts), -1, -1, -1)
+    start_code = start_code.expand(2, -1, -1, -1)
 
-    # results of direct synthesis
-    editor = AttentionBase()
-    regiter_attention_editor_diffusers(model, editor)
-    image_fixed = model([target_prompt],
-                        latents=start_code[-1:],
-                        num_inference_steps=50,
-                        guidance_scale=7.5)
+    seasons = [Season.SPRING, Season.SUMMER, Season.AUTUMN, Season.WINTER]
+    for target_season in tqdm(seasons, total=4, desc="正在生成四季图片"):
+        if target_season == single_image.season: continue
 
-    save_image(image_fixed, output_image_path)
+        target_prompt = f"{single_image.prompt} at {target_season.value}"
+        output_image_path = output_dir / f"{single_image.season}-{single_image.id}-to-{target_season.value}.jpg"
+
+        # results of direct synthesis
+        editor = AttentionBase()
+        regiter_attention_editor_diffusers(model, editor)
+        image_fixed = model([target_prompt],
+                            latents=start_code[-1:],
+                            num_inference_steps=50,
+                            guidance_scale=7.5)
+
+        save_image(image_fixed, output_image_path)
 
 
 if __name__ == "__main__":

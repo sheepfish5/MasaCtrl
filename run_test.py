@@ -5,13 +5,8 @@ output_dir = Path("output_dir")
 output_dir.mkdir(parents=True, exist_ok=True)
 
 def action(image_path: str, single_image: SingleImage):
-    seasons = [Season.SPRING, Season.SUMMER, Season.AUTUMN, Season.WINTER]
-    for target_season in tqdm(seasons, total=4, desc="正在生成四季图片"):
-        source_image_path = image_path
-        target_prompt = f"{single_image.prompt} at {target_season.value}"
-        output_image_path = output_dir / f"{single_image.season}-{single_image.id}-to-{target_season.value}.jpg"
-
-        generate_image(source_image_path, target_prompt, output_image_path)
+    
+    generate_image(image_path, single_image, output_dir)
 
 if __name__ == "__main__":
     meta_data = MetaData.load()
