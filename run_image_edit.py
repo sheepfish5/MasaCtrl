@@ -61,7 +61,7 @@ def generate_image(source_image_path: str, single_image: SingleImage, output_dir
     source_image = load_image(source_image_path, device)
 
     source_prompt = ""
-    prompts = [source_prompt, target_prompt]
+    # prompts = [source_prompt, target_prompt]
 
     # invert the source image
     start_code, latents_list = model.invert(source_image,
@@ -77,7 +77,7 @@ def generate_image(source_image_path: str, single_image: SingleImage, output_dir
         if target_season == single_image.season: continue
 
         target_prompt = f"{single_image.prompt} at {target_season.value}"
-        output_image_path = output_dir / f"{single_image.season}-{single_image.id}-to-{target_season.value}.jpg"
+        output_image_path = output_dir / f"{single_image.season.value}-{single_image.id:02}-to-{target_season.value}.jpg"
 
         # results of direct synthesis
         editor = AttentionBase()
