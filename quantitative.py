@@ -48,13 +48,11 @@ def action(image_path: str, single_image: SingleImage):
     for target_season in SEASONS:
         if target_season == single_image.season: continue
 
-        source_image_path = f"input_dir/{single_image.season.value}-{single_image.id:02d}.jpg"
-
         target_image_path = search_target_image_path_by(single_image, target_season)
         assert target_image_path != ""
         target_prompt = f"{single_image.prompt} at {target_season.value}"
         clipscore = compute_clipscore(target_image_path, target_prompt)
-        lpips = compute_lpips(source_image_path, target_image_path)
+        lpips = compute_lpips(image_path, target_image_path)
         target_image_data = SingleImageData(lpips, clipscore)
 
         total_lpips += lpips
