@@ -1,9 +1,9 @@
 {
     "counter": {
-        "spring": 7,
-        "summer": 6,
-        "autumn": 4,
-        "winter": 12
+        "spring": 53,
+        "summer": 53,
+        "autumn": 52,
+        "winter": 54
     },
     "image_data": {
         "input_dir/spring/01.jpg": {
@@ -150,6 +150,921 @@
             "id": 12,
             "season": "winter",
             "prompt": "A tree stands in a field under a clear sky"
+        },
+        "input_dir/spring/08.jpg": {
+            "id": 8,
+            "season": "spring",
+            "prompt": "Trees stand beside a path"
+        },
+        "input_dir/spring/09.jpg": {
+            "id": 9,
+            "season": "spring",
+            "prompt": "Grain grows in a field under a sky"
+        },
+        "input_dir/spring/10.jpg": {
+            "id": 10,
+            "season": "spring",
+            "prompt": "plants grow in a field below a sky"
+        },
+        "input_dir/spring/11.jpg": {
+            "id": 11,
+            "season": "spring",
+            "prompt": "A tree stands in a field under a sky"
+        },
+        "input_dir/spring/12.jpg": {
+            "id": 12,
+            "season": "spring",
+            "prompt": "A field shows trees line the background under clouds"
+        },
+        "input_dir/spring/13.jpg": {
+            "id": 13,
+            "season": "spring",
+            "prompt": "Flowers grow under sky with clouds"
+        },
+        "input_dir/spring/14.jpg": {
+            "id": 14,
+            "season": "spring",
+            "prompt": "Flowers grow in field under sky trees stand in background "
+        },
+        "input_dir/spring/15.jpg": {
+            "id": 15,
+            "season": "spring",
+            "prompt": "A path runs through grass mountains rise under clouds"
+        },
+        "input_dir/spring/16.jpg": {
+            "id": 16,
+            "season": "spring",
+            "prompt": "Clouds float above fields with trees and house"
+        },
+        "input_dir/spring/17.jpg": {
+            "id": 17,
+            "season": "spring",
+            "prompt": "A tree stands on a field under a sky with clouds"
+        },
+        "input_dir/spring/18.jpg": {
+            "id": 18,
+            "season": "spring",
+            "prompt": "Tree stands on field under sky"
+        },
+        "input_dir/spring/19.jpg": {
+            "id": 19,
+            "season": "spring",
+            "prompt": "Grass covers field trees border sky holds clouds"
+        },
+        "input_dir/spring/20.jpg": {
+            "id": 20,
+            "season": "spring",
+            "prompt": "Branches bear blossoms over grass under sky"
+        },
+        "input_dir/spring/21.jpg": {
+            "id": 21,
+            "season": "spring",
+            "prompt": "Trees line grassy area with mountains rising in background"
+        },
+        "input_dir/spring/22.jpg": {
+            "id": 22,
+            "season": "spring",
+            "prompt": "Trees line pathway water fountains benches in park mountains tower in distance"
+        },
+        "input_dir/spring/23.jpg": {
+            "id": 23,
+            "season": "spring",
+            "prompt": "Field of flowers lies under sky with clouds"
+        },
+        "input_dir/spring/24.jpg": {
+            "id": 24,
+            "season": "spring",
+            "prompt": "Trees bloom in field under sky with mountains in distance"
+        },
+        "input_dir/spring/25.jpg": {
+            "id": 25,
+            "season": "spring",
+            "prompt": "Clouds float in sky over grassland beside lake"
+        },
+        "input_dir/spring/26.jpg": {
+            "id": 26,
+            "season": "spring",
+            "prompt": "Flowers cover field under sky"
+        },
+        "input_dir/spring/27.jpg": {
+            "id": 27,
+            "season": "spring",
+            "prompt": "Trees line grassland with mountains in distance"
+        },
+        "input_dir/spring/28.jpg": {
+            "id": 28,
+            "season": "spring",
+            "prompt": "Flowers grow in field mountains rise under sky"
+        },
+        "input_dir/spring/29.jpg": {
+            "id": 29,
+            "season": "spring",
+            "prompt": "Trees stand in field beside flowers"
+        },
+        "input_dir/spring/30.jpg": {
+            "id": 30,
+            "season": "spring",
+            "prompt": "Tree blossoms frame building vase stands nearby"
+        },
+        "input_dir/spring/31.jpg": {
+            "id": 31,
+            "season": "spring",
+            "prompt": "Grass covers field under fog"
+        },
+        "input_dir/spring/32.jpg": {
+            "id": 32,
+            "season": "spring",
+            "prompt": "Flowers grow under sky"
+        },
+        "input_dir/spring/33.jpg": {
+            "id": 33,
+            "season": "spring",
+            "prompt": "Grass covered hills stand under sky with clouds two trees on hilltop"
+        },
+        "input_dir/spring/34.jpg": {
+            "id": 34,
+            "season": "spring",
+            "prompt": "Rows of trees bloom in grass under sky"
+        },
+        "input_dir/spring/35.jpg": {
+            "id": 35,
+            "season": "spring",
+            "prompt": "A tree blooms in a field with hills in distance "
+        },
+        "input_dir/spring/36.jpg": {
+            "id": 36,
+            "season": "spring",
+            "prompt": "Tree stands in grassland under fog"
+        },
+        "input_dir/spring/37.jpg": {
+            "id": 37,
+            "season": "spring",
+            "prompt": "Trees surround fields under a sky with clouds"
+        },
+        "input_dir/spring/38.jpg": {
+            "id": 38,
+            "season": "spring",
+            "prompt": "Tulips grow under sky with clouds"
+        },
+        "input_dir/spring/39.jpg": {
+            "id": 39,
+            "season": "spring",
+            "prompt": "House stands among trees beside path under sky"
+        },
+        "input_dir/spring/40.jpg": {
+            "id": 40,
+            "season": "spring",
+            "prompt": "Cherry blossom trees line road"
+        },
+        "input_dir/spring/41.jpg": {
+            "id": 41,
+            "season": "spring",
+            "prompt": "Tree stands in field under sky"
+        },
+        "input_dir/spring/42.jpg": {
+            "id": 42,
+            "season": "spring",
+            "prompt": "Cherry blossom trees surround church tower with cross"
+        },
+        "input_dir/spring/43.jpg": {
+            "id": 43,
+            "season": "spring",
+            "prompt": "Fog covers forest trees"
+        },
+        "input_dir/spring/44.jpg": {
+            "id": 44,
+            "season": "spring",
+            "prompt": "Tree stands in field under sky branches hang above"
+        },
+        "input_dir/spring/45.jpg": {
+            "id": 45,
+            "season": "spring",
+            "prompt": "Tree stands in field under sky"
+        },
+        "input_dir/spring/46.jpg": {
+            "id": 46,
+            "season": "spring",
+            "prompt": "Trees stand in flower field under sky"
+        },
+        "input_dir/spring/47.jpg": {
+            "id": 47,
+            "season": "spring",
+            "prompt": "Trees stand on grass beside water"
+        },
+        "input_dir/spring/48.jpg": {
+            "id": 48,
+            "season": "spring",
+            "prompt": "Field of flowers stretches under sky with houses and mountains in distance "
+        },
+        "input_dir/spring/49.jpg": {
+            "id": 49,
+            "season": "spring",
+            "prompt": "Trees line grass under sky"
+        },
+        "input_dir/spring/50.jpg": {
+            "id": 50,
+            "season": "spring",
+            "prompt": "Lake reflects mountain surrounded by trees and flowers under sky"
+        },
+        "input_dir/spring/51.jpg": {
+            "id": 51,
+            "season": "spring",
+            "prompt": "A path winds through field past trees under sky"
+        },
+        "input_dir/spring/52.jpg": {
+            "id": 52,
+            "season": "spring",
+            "prompt": "Field lies under sky trees line field"
+        },
+        "input_dir/spring/53.jpg": {
+            "id": 53,
+            "season": "spring",
+            "prompt": "Field of flowers lies under sky with clouds"
+        },
+        "input_dir/summer/07.jpg": {
+            "id": 7,
+            "season": "summer",
+            "prompt": "Grass covers field trees dot landscape mountains rise under clouds"
+        },
+        "input_dir/summer/08.jpg": {
+            "id": 8,
+            "season": "summer",
+            "prompt": "River flows between rocks mountains loom under clouds trees line banks "
+        },
+        "input_dir/summer/09.jpg": {
+            "id": 9,
+            "season": "summer",
+            "prompt": "Olive tree stands in grass under sky"
+        },
+        "input_dir/summer/10.jpg": {
+            "id": 10,
+            "season": "summer",
+            "prompt": "Mountains rise beside sea under clouds"
+        },
+        "input_dir/summer/11.jpg": {
+            "id": 11,
+            "season": "summer",
+            "prompt": "A tree stands beside a road near other trees and hills"
+        },
+        "input_dir/summer/12.jpg": {
+            "id": 12,
+            "season": "summer",
+            "prompt": "Clouds float above hills surrounded by trees"
+        },
+        "input_dir/summer/13.jpg": {
+            "id": 13,
+            "season": "summer",
+            "prompt": "Road winds through mountains under clouds"
+        },
+        "input_dir/summer/14.jpg": {
+            "id": 14,
+            "season": "summer",
+            "prompt": "Clouds hang over grassland"
+        },
+        "input_dir/summer/15.jpg": {
+            "id": 15,
+            "season": "summer",
+            "prompt": "Tree stands in field under sky with clouds"
+        },
+        "input_dir/summer/16.jpg": {
+            "id": 16,
+            "season": "summer",
+            "prompt": "Tree stands in field under sky"
+        },
+        "input_dir/summer/17.jpg": {
+            "id": 17,
+            "season": "summer",
+            "prompt": "Tree stands in field under sky with mountains in distance"
+        },
+        "input_dir/summer/18.jpg": {
+            "id": 18,
+            "season": "summer",
+            "prompt": "Tree stands on hill beside dead trunk under sky"
+        },
+        "input_dir/summer/19.jpg": {
+            "id": 19,
+            "season": "summer",
+            "prompt": "Path runs beside water under clouds near trees"
+        },
+        "input_dir/summer/20.jpg": {
+            "id": 20,
+            "season": "summer",
+            "prompt": "Clouds cover sky over field with trees and poles"
+        },
+        "input_dir/summer/21.jpg": {
+            "id": 21,
+            "season": "summer",
+            "prompt": "Trees stand on grass under sky"
+        },
+        "input_dir/summer/22.jpg": {
+            "id": 22,
+            "season": "summer",
+            "prompt": "Tree stands on field under sky"
+        },
+        "input_dir/summer/23.jpg": {
+            "id": 23,
+            "season": "summer",
+            "prompt": "Tree stands in savannah under sky"
+        },
+        "input_dir/summer/24.jpg": {
+            "id": 24,
+            "season": "summer",
+            "prompt": "Tree grows on rock facing mountains under sky"
+        },
+        "input_dir/summer/25.jpg": {
+            "id": 25,
+            "season": "summer",
+            "prompt": "A tree stands beside a path in a field under clouds"
+        },
+        "input_dir/summer/26.jpg": {
+            "id": 26,
+            "season": "summer",
+            "prompt": "Grass grows in field under sky with trees and buildings in distance "
+        },
+        "input_dir/summer/27.jpg": {
+            "id": 27,
+            "season": "summer",
+            "prompt": "Tree stands on grass under sky"
+        },
+        "input_dir/summer/28.jpg": {
+            "id": 28,
+            "season": "summer",
+            "prompt": "Tree stands in grass under sky"
+        },
+        "input_dir/summer/29.jpg": {
+            "id": 29,
+            "season": "summer",
+            "prompt": "Sun shines through clouds over field with water and grass"
+        },
+        "input_dir/summer/30.jpg": {
+            "id": 30,
+            "season": "summer",
+            "prompt": "Path leads up mountain with antenna at top under clouds"
+        },
+        "input_dir/summer/31.jpg": {
+            "id": 31,
+            "season": "summer",
+            "prompt": "Palm tree stands on ground under sky"
+        },
+        "input_dir/summer/32.jpg": {
+            "id": 32,
+            "season": "summer",
+            "prompt": "Road winds through mountains beside water under clouds"
+        },
+        "input_dir/summer/33.jpg": {
+            "id": 33,
+            "season": "summer",
+            "prompt": "Clouds hang over trees beside river"
+        },
+        "input_dir/summer/34.jpg": {
+            "id": 34,
+            "season": "summer",
+            "prompt": "Path winds through grass trees stand by ocean clouds cover sky"
+        },
+        "input_dir/summer/35.jpg": {
+            "id": 35,
+            "season": "summer",
+            "prompt": "Tree stands on hill under sky"
+        },
+        "input_dir/summer/36.jpg": {
+            "id": 36,
+            "season": "summer",
+            "prompt": "A tree stands in field under sky"
+        },
+        "input_dir/summer/37.jpg": {
+            "id": 37,
+            "season": "summer",
+            "prompt": "Field lies under sky with clouds over village with trees"
+        },
+        "input_dir/summer/38.jpg": {
+            "id": 38,
+            "season": "summer",
+            "prompt": "Palm trees stand on beach beside ocean under sky"
+        },
+        "input_dir/summer/39.jpg": {
+            "id": 39,
+            "season": "summer",
+            "prompt": "Tree stands on hill under sky"
+        },
+        "input_dir/summer/40.jpg": {
+            "id": 40,
+            "season": "summer",
+            "prompt": "Clouds hover over field trees stand behind"
+        },
+        "input_dir/summer/41.jpg": {
+            "id": 41,
+            "season": "summer",
+            "prompt": "Mountains rise surrounded by trees clouds float above"
+        },
+        "input_dir/summer/42.jpg": {
+            "id": 42,
+            "season": "summer",
+            "prompt": "Clouds cover sky above hill in field"
+        },
+        "input_dir/summer/43.jpg": {
+            "id": 43,
+            "season": "summer",
+            "prompt": "Trees stand in field under sky"
+        },
+        "input_dir/summer/44.jpg": {
+            "id": 44,
+            "season": "summer",
+            "prompt": "Palm tree reaches toward sky by sea"
+        },
+        "input_dir/summer/45.jpg": {
+            "id": 45,
+            "season": "summer",
+            "prompt": "Clouds cover sky above forest"
+        },
+        "input_dir/summer/46.jpg": {
+            "id": 46,
+            "season": "summer",
+            "prompt": "Tree stands in field under clouds"
+        },
+        "input_dir/summer/47.jpg": {
+            "id": 47,
+            "season": "summer",
+            "prompt": "Road runs beside tree under clouds"
+        },
+        "input_dir/summer/48.jpg": {
+            "id": 48,
+            "season": "summer",
+            "prompt": "Clouds cover sky above hills dotted with trees"
+        },
+        "input_dir/summer/49.jpg": {
+            "id": 49,
+            "season": "summer",
+            "prompt": "Houses sit on hill surrounded by trees under sky"
+        },
+        "input_dir/summer/50.jpg": {
+            "id": 50,
+            "season": "summer",
+            "prompt": "Flowers cover field below hills under sky"
+        },
+        "input_dir/summer/51.jpg": {
+            "id": 51,
+            "season": "summer",
+            "prompt": "Tea plants cover hills under clouds"
+        },
+        "input_dir/summer/52.jpg": {
+            "id": 52,
+            "season": "summer",
+            "prompt": "Path winds through grass under sky"
+        },
+        "input_dir/summer/53.jpg": {
+            "id": 53,
+            "season": "summer",
+            "prompt": "Cloud floats above grass field with trees"
+        },
+        "input_dir/autumn/05.jpg": {
+            "id": 5,
+            "season": "autumn",
+            "prompt": "Clouds float above hill grass covers hill"
+        },
+        "input_dir/autumn/06.jpg": {
+            "id": 6,
+            "season": "autumn",
+            "prompt": "A tree stands on a hill surrounded by forest"
+        },
+        "input_dir/autumn/07.jpg": {
+            "id": 7,
+            "season": "autumn",
+            "prompt": "Trees stand in fog under sky"
+        },
+        "input_dir/autumn/08.jpg": {
+            "id": 8,
+            "season": "autumn",
+            "prompt": "Path runs through trees bench sits on grass"
+        },
+        "input_dir/autumn/09.jpg": {
+            "id": 9,
+            "season": "autumn",
+            "prompt": "House sits behind fence trees cover hills sun shines through clouds "
+        },
+        "input_dir/autumn/10.jpg": {
+            "id": 10,
+            "season": "autumn",
+            "prompt": "Trees line road cyclists stand on guardrail"
+        },
+        "input_dir/autumn/11.jpg": {
+            "id": 11,
+            "season": "autumn",
+            "prompt": "Rainbow arches over mountains beside lake surrounded by trees "
+        },
+        "input_dir/autumn/12.jpg": {
+            "id": 12,
+            "season": "autumn",
+            "prompt": "Tree stands on grass under sky with clouds"
+        },
+        "input_dir/autumn/13.jpg": {
+            "id": 13,
+            "season": "autumn",
+            "prompt": "House sits in grass surrounded by trees under sky"
+        },
+        "input_dir/autumn/14.jpg": {
+            "id": 14,
+            "season": "autumn",
+            "prompt": "Wheat grows under sky with clouds"
+        },
+        "input_dir/autumn/15.jpg": {
+            "id": 15,
+            "season": "autumn",
+            "prompt": "Trees cover hills with mountains rising in distance under clouds"
+        },
+        "input_dir/autumn/16.jpg": {
+            "id": 16,
+            "season": "autumn",
+            "prompt": "Field lies before trees and hill under sky"
+        },
+        "input_dir/autumn/17.jpg": {
+            "id": 17,
+            "season": "autumn",
+            "prompt": "Mountain lies beside pond under sky"
+        },
+        "input_dir/autumn/18.jpg": {
+            "id": 18,
+            "season": "autumn",
+            "prompt": "Trees line path leaves cover ground"
+        },
+        "input_dir/autumn/19.jpg": {
+            "id": 19,
+            "season": "autumn",
+            "prompt": "Tree hangs over lake reflecting trees"
+        },
+        "input_dir/autumn/20.jpg": {
+            "id": 20,
+            "season": "autumn",
+            "prompt": "Bench sits on hill under sky trees stand nearby"
+        },
+        "input_dir/autumn/21.jpg": {
+            "id": 21,
+            "season": "autumn",
+            "prompt": "Bench sits under trees covered in leaves along path"
+        },
+        "input_dir/autumn/22.jpg": {
+            "id": 22,
+            "season": "autumn",
+            "prompt": "Trees line path covered with leaves"
+        },
+        "input_dir/autumn/23.jpg": {
+            "id": 23,
+            "season": "autumn",
+            "prompt": "Trees line road with leaves on ground"
+        },
+        "input_dir/autumn/24.jpg": {
+            "id": 24,
+            "season": "autumn",
+            "prompt": "Trees stand in forest with leaves"
+        },
+        "input_dir/autumn/25.jpg": {
+            "id": 25,
+            "season": "autumn",
+            "prompt": "Field lies under sky trees stand beside mist"
+        },
+        "input_dir/autumn/26.jpg": {
+            "id": 26,
+            "season": "autumn",
+            "prompt": "Clouds hover over mountain covered in trees"
+        },
+        "input_dir/autumn/27.jpg": {
+            "id": 27,
+            "season": "autumn",
+            "prompt": "Trees line path leaves cover ground"
+        },
+        "input_dir/autumn/28.jpg": {
+            "id": 28,
+            "season": "autumn",
+            "prompt": "A tree stands on grass under sky"
+        },
+        "input_dir/autumn/29.jpg": {
+            "id": 29,
+            "season": "autumn",
+            "prompt": "Barn stands in field under clouds"
+        },
+        "input_dir/autumn/30.jpg": {
+            "id": 30,
+            "season": "autumn",
+            "prompt": "Tree stands on hill in front of mountains"
+        },
+        "input_dir/autumn/31.jpg": {
+            "id": 31,
+            "season": "autumn",
+            "prompt": "Mountain has structure fog covers background"
+        },
+        "input_dir/autumn/32.jpg": {
+            "id": 32,
+            "season": "autumn",
+            "prompt": "Tree stands in field under sky"
+        },
+        "input_dir/autumn/33.jpg": {
+            "id": 33,
+            "season": "autumn",
+            "prompt": "Bench sits on hill under sky trees surround"
+        },
+        "input_dir/autumn/34.jpg": {
+            "id": 34,
+            "season": "autumn",
+            "prompt": "Road winds through trees"
+        },
+        "input_dir/autumn/35.jpg": {
+            "id": 35,
+            "season": "autumn",
+            "prompt": "A tree stands beside a castle under a sky"
+        },
+        "input_dir/autumn/36.jpg": {
+            "id": 36,
+            "season": "autumn",
+            "prompt": "Field lies under sky with clouds"
+        },
+        "input_dir/autumn/37.jpg": {
+            "id": 37,
+            "season": "autumn",
+            "prompt": "Trees line path covered in leaves fog fills air"
+        },
+        "input_dir/autumn/38.jpg": {
+            "id": 38,
+            "season": "autumn",
+            "prompt": "Trees line road under sky"
+        },
+        "input_dir/autumn/39.jpg": {
+            "id": 39,
+            "season": "autumn",
+            "prompt": "Clouds float above hills under sky"
+        },
+        "input_dir/autumn/40.jpg": {
+            "id": 40,
+            "season": "autumn",
+            "prompt": "Trees surround river fog shrouds"
+        },
+        "input_dir/autumn/41.jpg": {
+            "id": 41,
+            "season": "autumn",
+            "prompt": "Road curves through trees near mountain"
+        },
+        "input_dir/autumn/42.jpg": {
+            "id": 42,
+            "season": "autumn",
+            "prompt": "Birch trees line water leaves cover ground"
+        },
+        "input_dir/autumn/43.jpg": {
+            "id": 43,
+            "season": "autumn",
+            "prompt": "People walk on hill surrounded by trees and houses in distance"
+        },
+        "input_dir/autumn/44.jpg": {
+            "id": 44,
+            "season": "autumn",
+            "prompt": "Trees stand beside reeds and reflect in lake"
+        },
+        "input_dir/autumn/45.jpg": {
+            "id": 45,
+            "season": "autumn",
+            "prompt": "Trees stand before mountains under sky"
+        },
+        "input_dir/autumn/46.jpg": {
+            "id": 46,
+            "season": "autumn",
+            "prompt": "Trees stand on hill fog covers valley sky turns red"
+        },
+        "input_dir/autumn/47.jpg": {
+            "id": 47,
+            "season": "autumn",
+            "prompt": "Trees line path leaves cover ground water lies nearby "
+        },
+        "input_dir/autumn/48.jpg": {
+            "id": 48,
+            "season": "autumn",
+            "prompt": "A tree leans on a hillside under clouds"
+        },
+        "input_dir/autumn/49.jpg": {
+            "id": 49,
+            "season": "autumn",
+            "prompt": "Houses sit on hill surrounded by trees"
+        },
+        "input_dir/autumn/50.jpg": {
+            "id": 50,
+            "season": "autumn",
+            "prompt": "Grass covers hill trees stand in distance mountains rise under sky "
+        },
+        "input_dir/autumn/51.jpg": {
+            "id": 51,
+            "season": "autumn",
+            "prompt": "Trees line path sunlight filters through"
+        },
+        "input_dir/autumn/52.jpg": {
+            "id": 52,
+            "season": "autumn",
+            "prompt": "Trees cover hills under sky"
+        },
+        "input_dir/winter/13.jpg": {
+            "id": 13,
+            "season": "winter",
+            "prompt": "Trees stand in snow under sky"
+        },
+        "input_dir/winter/14.jpg": {
+            "id": 14,
+            "season": "winter",
+            "prompt": "Trees stand on snow under sky"
+        },
+        "input_dir/winter/15.jpg": {
+            "id": 15,
+            "season": "winter",
+            "prompt": "Pine trees stand before mountain under sky"
+        },
+        "input_dir/winter/16.jpg": {
+            "id": 16,
+            "season": "winter",
+            "prompt": "Snow covers trees under sky"
+        },
+        "input_dir/winter/17.jpg": {
+            "id": 17,
+            "season": "winter",
+            "prompt": "Road runs through forest under sky"
+        },
+        "input_dir/winter/18.jpg": {
+            "id": 18,
+            "season": "winter",
+            "prompt": "Road runs through forest covered in snow"
+        },
+        "input_dir/winter/19.jpg": {
+            "id": 19,
+            "season": "winter",
+            "prompt": "Trees stand in snow under sky"
+        },
+        "input_dir/winter/20.jpg": {
+            "id": 20,
+            "season": "winter",
+            "prompt": "Snow covers trees under sky"
+        },
+        "input_dir/winter/21.jpg": {
+            "id": 21,
+            "season": "winter",
+            "prompt": "Snow covered trees line road under sky"
+        },
+        "input_dir/winter/22.jpg": {
+            "id": 22,
+            "season": "winter",
+            "prompt": "Snow covers trees under sky"
+        },
+        "input_dir/winter/23.jpg": {
+            "id": 23,
+            "season": "winter",
+            "prompt": "Cabins sit among trees under sky"
+        },
+        "input_dir/winter/24.jpg": {
+            "id": 24,
+            "season": "winter",
+            "prompt": "Skier moves on snow among trees under sky"
+        },
+        "input_dir/winter/25.jpg": {
+            "id": 25,
+            "season": "winter",
+            "prompt": "Snow covers trees under sky"
+        },
+        "input_dir/winter/26.jpg": {
+            "id": 26,
+            "season": "winter",
+            "prompt": "Trees stand on snow under sky"
+        },
+        "input_dir/winter/27.jpg": {
+            "id": 27,
+            "season": "winter",
+            "prompt": "Sun shines above snow covered trees on snow"
+        },
+        "input_dir/winter/28.jpg": {
+            "id": 28,
+            "season": "winter",
+            "prompt": "Road curves through forest covered in snow"
+        },
+        "input_dir/winter/29.jpg": {
+            "id": 29,
+            "season": "winter",
+            "prompt": "Pine trees stand under sky with snow"
+        },
+        "input_dir/winter/30.jpg": {
+            "id": 30,
+            "season": "winter",
+            "prompt": "Road curves through trees under sky"
+        },
+        "input_dir/winter/31.jpg": {
+            "id": 31,
+            "season": "winter",
+            "prompt": "Snow covers trees under sky with sun setting"
+        },
+        "input_dir/winter/32.jpg": {
+            "id": 32,
+            "season": "winter",
+            "prompt": "Trees stand on snow under sky"
+        },
+        "input_dir/winter/33.jpg": {
+            "id": 33,
+            "season": "winter",
+            "prompt": "Trees stand in field under sky with mountains in distance "
+        },
+        "input_dir/winter/34.jpg": {
+            "id": 34,
+            "season": "winter",
+            "prompt": "Snow covers road surrounded by trees under sky"
+        },
+        "input_dir/winter/35.jpg": {
+            "id": 35,
+            "season": "winter",
+            "prompt": "Trees line road under sky covered in snow"
+        },
+        "input_dir/winter/36.jpg": {
+            "id": 36,
+            "season": "winter",
+            "prompt": "Snow covers trees under sky mountains in background"
+        },
+        "input_dir/winter/37.jpg": {
+            "id": 37,
+            "season": "winter",
+            "prompt": "A tree lines a snowy road beside evergreens under sky"
+        },
+        "input_dir/winter/38.jpg": {
+            "id": 38,
+            "season": "winter",
+            "prompt": "Trees stand on field under sky"
+        },
+        "input_dir/winter/39.jpg": {
+            "id": 39,
+            "season": "winter",
+            "prompt": "Snowflakes fall among pine trees on snow"
+        },
+        "input_dir/winter/40.jpg": {
+            "id": 40,
+            "season": "winter",
+            "prompt": "Road runs between trees with mountains in distance"
+        },
+        "input_dir/winter/41.jpg": {
+            "id": 41,
+            "season": "winter",
+            "prompt": "Trees stand in snow under sky"
+        },
+        "input_dir/winter/42.jpg": {
+            "id": 42,
+            "season": "winter",
+            "prompt": "Road runs through snowy landscape near house under clouds"
+        },
+        "input_dir/winter/43.jpg": {
+            "id": 43,
+            "season": "winter",
+            "prompt": "Snow covers trees under sky"
+        },
+        "input_dir/winter/44.jpg": {
+            "id": 44,
+            "season": "winter",
+            "prompt": "Tree stands in field under sky"
+        },
+        "input_dir/winter/45.jpg": {
+            "id": 45,
+            "season": "winter",
+            "prompt": "Road runs through snow under clouds"
+        },
+        "input_dir/winter/46.jpg": {
+            "id": 46,
+            "season": "winter",
+            "prompt": "Snow covers ground trees stand under sky"
+        },
+        "input_dir/winter/47.jpg": {
+            "id": 47,
+            "season": "winter",
+            "prompt": "Road winds through trees with tower in distance "
+        },
+        "input_dir/winter/48.jpg": {
+            "id": 48,
+            "season": "winter",
+            "prompt": "Snow covers trees under sky"
+        },
+        "input_dir/winter/49.jpg": {
+            "id": 49,
+            "season": "winter",
+            "prompt": "Snow covers ground beneath pine trees under sky "
+        },
+        "input_dir/winter/50.jpg": {
+            "id": 50,
+            "season": "winter",
+            "prompt": "Trees stand by snow covered ground under sky"
+        },
+        "input_dir/winter/51.jpg": {
+            "id": 51,
+            "season": "winter",
+            "prompt": "Sun shines through trees covered in snow under sky"
+        },
+        "input_dir/winter/52.jpg": {
+            "id": 52,
+            "season": "winter",
+            "prompt": "Snow covers trees house lies in field sky looms above "
+        },
+        "input_dir/winter/53.jpg": {
+            "id": 53,
+            "season": "winter",
+            "prompt": "Sun shines through trees casting shadows on snow"
+        },
+        "input_dir/winter/54.jpg": {
+            "id": 54,
+            "season": "winter",
+            "prompt": "Trees stand beside lake covered in frost"
         }
     }
 }
