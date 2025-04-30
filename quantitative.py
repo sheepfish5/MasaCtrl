@@ -42,6 +42,10 @@ total_clipscore = 0.0
 # average_lpips = 0.24209230341787996
 # average_clipscore = 33.08898840279415
 
+# total
+# average_lpips = 0.24633388475473947
+# average_clipscore = 31.544177589176584
+
 SEASONS = [Season.SPRING, Season.SUMMER, Season.AUTUMN, Season.WINTER]
 def action(image_path: str, single_image: SingleImage):
 
