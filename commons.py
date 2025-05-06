@@ -16,3 +16,6 @@ output_pytorch_tensor_dir = output_dir / Path("pytorch-tensor")
 output_dir.mkdir(parents=True, exist_ok=True)
 input_dir.mkdir(parents=True, exist_ok=True)
 output_pytorch_tensor_dir.mkdir(parents=True, exist_ok=True)
+
+output_compose_dir = Path("output_compose_dir")
+output_compose_dir.mkdir(parents=True, exist_ok=True)

@@ -174,3 +174,5 @@ cython_debug/
 .pypirc
 
 stable-diffusion-v1-4/**
+
+output_compose_dir/**
