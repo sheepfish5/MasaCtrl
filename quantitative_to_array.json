@@ -1,0 +1,611 @@
+[
+    {
+        "id": "01",
+        "source_season": "spring",
+        "target_season": "summer",
+        "lpips": 0.26317816972732544,
+        "clip_score": 31.51434898376465
+    },
+    {
+        "id": "01",
+        "source_season": "spring",
+        "target_season": "autumn",
+        "lpips": 0.2935846745967865,
+        "clip_score": 32.8338737487793
+    },
+    {
+        "id": "01",
+        "source_season": "spring",
+        "target_season": "winter",
+        "lpips": 0.29103273153305054,
+        "clip_score": 30.86872673034668
+    },
+    {
+        "id": "02",
+        "source_season": "spring",
+        "target_season": "summer",
+        "lpips": 0.24045881628990173,
+        "clip_score": 34.820899963378906
+    },
+    {
+        "id": "02",
+        "source_season": "spring",
+        "target_season": "autumn",
+        "lpips": 0.30236318707466125,
+        "clip_score": 33.94270706176758
+    },
+    {
+        "id": "02",
+        "source_season": "spring",
+        "target_season": "winter",
+        "lpips": 0.28879648447036743,
+        "clip_score": 34.01987075805664
+    },
+    {
+        "id": "01",
+        "source_season": "summer",
+        "target_season": "spring",
+        "lpips": 0.26915180683135986,
+        "clip_score": 31.285030364990234
+    },
+    {
+        "id": "01",
+        "source_season": "summer",
+        "target_season": "autumn",
+        "lpips": 0.2489112764596939,
+        "clip_score": 34.612548828125
+    },
+    {
+        "id": "01",
+        "source_season": "summer",
+        "target_season": "winter",
+        "lpips": 0.12989090383052826,
+        "clip_score": 33.56471252441406
+    },
+    {
+        "id": "02",
+        "source_season": "summer",
+        "target_season": "spring",
+        "lpips": 0.20691454410552979,
+        "clip_score": 30.979665756225586
+    },
+    {
+        "id": "02",
+        "source_season": "summer",
+        "target_season": "autumn",
+        "lpips": 0.2009943127632141,
+        "clip_score": 30.615779876708984
+    },
+    {
+        "id": "02",
+        "source_season": "summer",
+        "target_season": "winter",
+        "lpips": 0.25293418765068054,
+        "clip_score": 31.08716583251953
+    },
+    {
+        "id": "01",
+        "source_season": "autumn",
+        "target_season": "spring",
+        "lpips": 0.20983251929283142,
+        "clip_score": 28.292766571044922
+    },
+    {
+        "id": "01",
+        "source_season": "autumn",
+        "target_season": "summer",
+        "lpips": 0.23102536797523499,
+        "clip_score": 30.29262351989746
+    },
+    {
+        "id": "01",
+        "source_season": "autumn",
+        "target_season": "winter",
+        "lpips": 0.25870779156684875,
+        "clip_score": 29.990678787231445
+    },
+    {
+        "id": "02",
+        "source_season": "autumn",
+        "target_season": "spring",
+        "lpips": 0.23272980749607086,
+        "clip_score": 31.41130256652832
+    },
+    {
+        "id": "02",
+        "source_season": "autumn",
+        "target_season": "summer",
+        "lpips": 0.24545063078403473,
+        "clip_score": 31.46551513671875
+    },
+    {
+        "id": "02",
+        "source_season": "autumn",
+        "target_season": "winter",
+        "lpips": 0.23645420372486115,
+        "clip_score": 35.00008010864258
+    },
+    {
+        "id": "01",
+        "source_season": "winter",
+        "target_season": "spring",
+        "lpips": 0.21689176559448242,
+        "clip_score": 27.48322868347168
+    },
+    {
+        "id": "01",
+        "source_season": "winter",
+        "target_season": "summer",
+        "lpips": 0.20326103270053864,
+        "clip_score": 31.993993759155273
+    },
+    {
+        "id": "01",
+        "source_season": "winter",
+        "target_season": "autumn",
+        "lpips": 0.24085834622383118,
+        "clip_score": 31.26676368713379
+    },
+    {
+        "id": "02",
+        "source_season": "winter",
+        "target_season": "spring",
+        "lpips": 0.2608499228954315,
+        "clip_score": 34.34697341918945
+    },
+    {
+        "id": "02",
+        "source_season": "winter",
+        "target_season": "summer",
+        "lpips": 0.293753981590271,
+        "clip_score": 32.828956604003906
+    },
+    {
+        "id": "02",
+        "source_season": "winter",
+        "target_season": "autumn",
+        "lpips": 0.25930824875831604,
+        "clip_score": 33.993080139160156
+    },
+    {
+        "id": "03",
+        "source_season": "spring",
+        "target_season": "summer",
+        "lpips": 0.27587443590164185,
+        "clip_score": 32.462127685546875
+    },
+    {
+        "id": "03",
+        "source_season": "spring",
+        "target_season": "autumn",
+        "lpips": 0.2825028598308563,
+        "clip_score": 34.673397064208984
+    },
+    {
+        "id": "03",
+        "source_season": "spring",
+        "target_season": "winter",
+        "lpips": 0.26025763154029846,
+        "clip_score": 35.048797607421875
+    },
+    {
+        "id": "04",
+        "source_season": "spring",
+        "target_season": "summer",
+        "lpips": 0.2698480486869812,
+        "clip_score": 33.220489501953125
+    },
+    {
+        "id": "04",
+        "source_season": "spring",
+        "target_season": "autumn",
+        "lpips": 0.27626508474349976,
+        "clip_score": 34.471885681152344
+    },
+    {
+        "id": "04",
+        "source_season": "spring",
+        "target_season": "winter",
+        "lpips": 0.3134104609489441,
+        "clip_score": 32.5970344543457
+    },
+    {
+        "id": "05",
+        "source_season": "spring",
+        "target_season": "summer",
+        "lpips": 0.31358447670936584,
+        "clip_score": 31.475183486938477
+    },
+    {
+        "id": "05",
+        "source_season": "spring",
+        "target_season": "autumn",
+        "lpips": 0.2837652266025543,
+        "clip_score": 30.23613739013672
+    },
+    {
+        "id": "05",
+        "source_season": "spring",
+        "target_season": "winter",
+        "lpips": 0.32377371191978455,
+        "clip_score": 33.5185661315918
+    },
+    {
+        "id": "06",
+        "source_season": "spring",
+        "target_season": "summer",
+        "lpips": 0.2177632749080658,
+        "clip_score": 31.16021156311035
+    },
+    {
+        "id": "06",
+        "source_season": "spring",
+        "target_season": "autumn",
+        "lpips": 0.16156819462776184,
+        "clip_score": 32.736328125
+    },
+    {
+        "id": "06",
+        "source_season": "spring",
+        "target_season": "winter",
+        "lpips": 0.20677141845226288,
+        "clip_score": 31.25154685974121
+    },
+    {
+        "id": "07",
+        "source_season": "spring",
+        "target_season": "summer",
+        "lpips": 0.2167317420244217,
+        "clip_score": 32.38042449951172
+    },
+    {
+        "id": "07",
+        "source_season": "spring",
+        "target_season": "autumn",
+        "lpips": 0.23268774151802063,
+        "clip_score": 34.48320770263672
+    },
+    {
+        "id": "07",
+        "source_season": "spring",
+        "target_season": "winter",
+        "lpips": 0.2662380635738373,
+        "clip_score": 33.03916549682617
+    },
+    {
+        "id": "03",
+        "source_season": "summer",
+        "target_season": "spring",
+        "lpips": 0.23800769448280334,
+        "clip_score": 33.13330078125
+    },
+    {
+        "id": "03",
+        "source_season": "summer",
+        "target_season": "autumn",
+        "lpips": 0.2399737685918808,
+        "clip_score": 36.39196014404297
+    },
+    {
+        "id": "03",
+        "source_season": "summer",
+        "target_season": "winter",
+        "lpips": 0.275882750749588,
+        "clip_score": 33.54912567138672
+    },
+    {
+        "id": "04",
+        "source_season": "summer",
+        "target_season": "spring",
+        "lpips": 0.12642034888267517,
+        "clip_score": 33.82231521606445
+    },
+    {
+        "id": "04",
+        "source_season": "summer",
+        "target_season": "autumn",
+        "lpips": 0.11534712463617325,
+        "clip_score": 33.881290435791016
+    },
+    {
+        "id": "04",
+        "source_season": "summer",
+        "target_season": "winter",
+        "lpips": 0.12817327678203583,
+        "clip_score": 32.35671615600586
+    },
+    {
+        "id": "05",
+        "source_season": "summer",
+        "target_season": "spring",
+        "lpips": 0.11931517720222473,
+        "clip_score": 33.588504791259766
+    },
+    {
+        "id": "05",
+        "source_season": "summer",
+        "target_season": "autumn",
+        "lpips": 0.15493613481521606,
+        "clip_score": 35.66845703125
+    },
+    {
+        "id": "05",
+        "source_season": "summer",
+        "target_season": "winter",
+        "lpips": 0.1472035050392151,
+        "clip_score": 36.54622268676758
+    },
+    {
+        "id": "06",
+        "source_season": "summer",
+        "target_season": "spring",
+        "lpips": 0.23961080610752106,
+        "clip_score": 32.024009704589844
+    },
+    {
+        "id": "06",
+        "source_season": "summer",
+        "target_season": "autumn",
+        "lpips": 0.3180263638496399,
+        "clip_score": 34.09939193725586
+    },
+    {
+        "id": "06",
+        "source_season": "summer",
+        "target_season": "winter",
+        "lpips": 0.23896795511245728,
+        "clip_score": 35.385589599609375
+    },
+    {
+        "id": "03",
+        "source_season": "autumn",
+        "target_season": "spring",
+        "lpips": 0.25306689739227295,
+        "clip_score": 33.72145080566406
+    },
+    {
+        "id": "03",
+        "source_season": "autumn",
+        "target_season": "summer",
+        "lpips": 0.2731302082538605,
+        "clip_score": 31.518367767333984
+    },
+    {
+        "id": "03",
+        "source_season": "autumn",
+        "target_season": "winter",
+        "lpips": 0.22515960037708282,
+        "clip_score": 35.430171966552734
+    },
+    {
+        "id": "04",
+        "source_season": "autumn",
+        "target_season": "spring",
+        "lpips": 0.12819218635559082,
+        "clip_score": 35.383392333984375
+    },
+    {
+        "id": "04",
+        "source_season": "autumn",
+        "target_season": "summer",
+        "lpips": 0.1327977031469345,
+        "clip_score": 35.40767288208008
+    },
+    {
+        "id": "04",
+        "source_season": "autumn",
+        "target_season": "winter",
+        "lpips": 0.13850145041942596,
+        "clip_score": 35.31972122192383
+    },
+    {
+        "id": "03",
+        "source_season": "winter",
+        "target_season": "spring",
+        "lpips": 0.2134079933166504,
+        "clip_score": 32.07499313354492
+    },
+    {
+        "id": "03",
+        "source_season": "winter",
+        "target_season": "summer",
+        "lpips": 0.19422173500061035,
+        "clip_score": 34.20685958862305
+    },
+    {
+        "id": "03",
+        "source_season": "winter",
+        "target_season": "autumn",
+        "lpips": 0.2465001493692398,
+        "clip_score": 33.437049865722656
+    },
+    {
+        "id": "04",
+        "source_season": "winter",
+        "target_season": "spring",
+        "lpips": 0.27231067419052124,
+        "clip_score": 30.951204299926758
+    },
+    {
+        "id": "04",
+        "source_season": "winter",
+        "target_season": "summer",
+        "lpips": 0.28272396326065063,
+        "clip_score": 31.184288024902344
+    },
+    {
+        "id": "04",
+        "source_season": "winter",
+        "target_season": "autumn",
+        "lpips": 0.46372658014297485,
+        "clip_score": 32.06708908081055
+    },
+    {
+        "id": "05",
+        "source_season": "winter",
+        "target_season": "spring",
+        "lpips": 0.23162667453289032,
+        "clip_score": 30.409732818603516
+    },
+    {
+        "id": "05",
+        "source_season": "winter",
+        "target_season": "summer",
+        "lpips": 0.2643303871154785,
+        "clip_score": 28.536245346069336
+    },
+    {
+        "id": "05",
+        "source_season": "winter",
+        "target_season": "autumn",
+        "lpips": 0.23145078122615814,
+        "clip_score": 32.604305267333984
+    },
+    {
+        "id": "06",
+        "source_season": "winter",
+        "target_season": "spring",
+        "lpips": 0.2548929750919342,
+        "clip_score": 31.510480880737305
+    },
+    {
+        "id": "06",
+        "source_season": "winter",
+        "target_season": "summer",
+        "lpips": 0.3329700231552124,
+        "clip_score": 30.254348754882812
+    },
+    {
+        "id": "06",
+        "source_season": "winter",
+        "target_season": "autumn",
+        "lpips": 0.38987869024276733,
+        "clip_score": 31.452533721923828
+    },
+    {
+        "id": "07",
+        "source_season": "winter",
+        "target_season": "spring",
+        "lpips": 0.15813565254211426,
+        "clip_score": 36.868690490722656
+    },
+    {
+        "id": "07",
+        "source_season": "winter",
+        "target_season": "summer",
+        "lpips": 0.17448049783706665,
+        "clip_score": 36.9260139465332
+    },
+    {
+        "id": "07",
+        "source_season": "winter",
+        "target_season": "autumn",
+        "lpips": 0.17685982584953308,
+        "clip_score": 35.12464904785156
+    },
+    {
+        "id": "08",
+        "source_season": "winter",
+        "target_season": "spring",
+        "lpips": 0.185453400015831,
+        "clip_score": 32.07242965698242
+    },
+    {
+        "id": "08",
+        "source_season": "winter",
+        "target_season": "summer",
+        "lpips": 0.3017154037952423,
+        "clip_score": 35.2402458190918
+    },
+    {
+        "id": "08",
+        "source_season": "winter",
+        "target_season": "autumn",
+        "lpips": 0.306679368019104,
+        "clip_score": 33.260826110839844
+    },
+    {
+        "id": "09",
+        "source_season": "winter",
+        "target_season": "spring",
+        "lpips": 0.19218069314956665,
+        "clip_score": 34.77595901489258
+    },
+    {
+        "id": "09",
+        "source_season": "winter",
+        "target_season": "summer",
+        "lpips": 0.21178972721099854,
+        "clip_score": 34.858154296875
+    },
+    {
+        "id": "09",
+        "source_season": "winter",
+        "target_season": "autumn",
+        "lpips": 0.24724401533603668,
+        "clip_score": 35.87910842895508
+    },
+    {
+        "id": "10",
+        "source_season": "winter",
+        "target_season": "spring",
+        "lpips": 0.19943758845329285,
+        "clip_score": 32.839195251464844
+    },
+    {
+        "id": "10",
+        "source_season": "winter",
+        "target_season": "summer",
+        "lpips": 0.21148744225502014,
+        "clip_score": 33.563228607177734
+    },
+    {
+        "id": "10",
+        "source_season": "winter",
+        "target_season": "autumn",
+        "lpips": 0.2234470248222351,
+        "clip_score": 34.76383590698242
+    },
+    {
+        "id": "11",
+        "source_season": "winter",
+        "target_season": "spring",
+        "lpips": 0.3875657618045807,
+        "clip_score": 32.1568717956543
+    },
+    {
+        "id": "11",
+        "source_season": "winter",
+        "target_season": "summer",
+        "lpips": 0.396419882774353,
+        "clip_score": 32.25412368774414
+    },
+    {
+        "id": "11",
+        "source_season": "winter",
+        "target_season": "autumn",
+        "lpips": 0.38330885767936707,
+        "clip_score": 33.69145202636719
+    },
+    {
+        "id": "12",
+        "source_season": "winter",
+        "target_season": "spring",
+        "lpips": 0.16200435161590576,
+        "clip_score": 36.05318832397461
+    },
+    {
+        "id": "12",
+        "source_season": "winter",
+        "target_season": "summer",
+        "lpips": 0.22706598043441772,
+        "clip_score": 35.282833099365234
+    },
+    {
+        "id": "12",
+        "source_season": "winter",
+        "target_season": "autumn",
+        "lpips": 0.26762425899505615,
+        "clip_score": 35.9485969543457
+    }
+]

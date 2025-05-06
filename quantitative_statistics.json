@@ -1,0 +1,74 @@
+[
+    {
+        "source_season": "spring",
+        "target_season": "summer",
+        "avg_lpips": 0.2567769948925291,
+        "avg_clip_score": 32.43338366917202
+    },
+    {
+        "source_season": "spring",
+        "target_season": "autumn",
+        "avg_lpips": 0.2618195669991629,
+        "avg_clip_score": 33.33964811052595
+    },
+    {
+        "source_season": "spring",
+        "target_season": "winter",
+        "avg_lpips": 0.2786115003483636,
+        "avg_clip_score": 32.90624400547573
+    },
+    {
+        "source_season": "summer",
+        "target_season": "spring",
+        "avg_lpips": 0.19990339626868567,
+        "avg_clip_score": 32.472137769063316
+    },
+    {
+        "source_season": "summer",
+        "target_season": "autumn",
+        "avg_lpips": 0.21303149685263634,
+        "avg_clip_score": 34.21157137552897
+    },
+    {
+        "source_season": "summer",
+        "target_season": "winter",
+        "avg_lpips": 0.19550876319408417,
+        "avg_clip_score": 33.74825541178385
+    },
+    {
+        "source_season": "autumn",
+        "target_season": "spring",
+        "avg_lpips": 0.2059553526341915,
+        "avg_clip_score": 32.20222806930542
+    },
+    {
+        "source_season": "autumn",
+        "target_season": "summer",
+        "avg_lpips": 0.22060097754001617,
+        "avg_clip_score": 32.17104482650757
+    },
+    {
+        "source_season": "autumn",
+        "target_season": "winter",
+        "avg_lpips": 0.21470576152205467,
+        "avg_clip_score": 33.93516302108765
+    },
+    {
+        "source_season": "winter",
+        "target_season": "spring",
+        "avg_lpips": 0.2278964544336001,
+        "avg_clip_score": 32.628578980763756
+    },
+    {
+        "source_season": "winter",
+        "target_season": "summer",
+        "avg_lpips": 0.2578516714274883,
+        "avg_clip_score": 33.09410762786865
+    },
+    {
+        "source_season": "winter",
+        "target_season": "autumn",
+        "avg_lpips": 0.2864071788887183,
+        "avg_clip_score": 33.62410751978556
+    }
+]
